@@ -1,6 +1,6 @@
 # React Scroll Snap
 
-This is a React component snaps to specific points in the viewport as you scroll.
+This React component allows to snaps to specific points (component container children) in the viewport as you scroll.
 
 ## Usage
 
