@@ -21,24 +21,22 @@ function App() {
   }, [])
 
   return (
-    <section id='container' ref={containerRef}>
-      <div id='container' ref={containerRef}>
-        <div className='page first-page'>
-          <div>I</div>
-          <div className='hint'>scroll down</div>
-        </div>
-        <div className='page second-page'>
-          <div>II</div>
-        </div>
-        <div className='page third-page'>
-          <div>III</div>
-        </div>
-        <div className='page fourth-page'>
-          <div>IV</div>
-          <div className='hint'>scroll up</div>
-        </div>
+    <div id='container' ref={containerRef}>
+      <div className='page first-page'>
+        <div>I</div>
+        <div className='hint'>scroll down</div>
       </div>
-    </section>
+      <div className='page second-page'>
+        <div>II</div>
+      </div>
+      <div className='page third-page'>
+        <div>III</div>
+      </div>
+      <div className='page fourth-page'>
+        <div>IV</div>
+        <div className='hint'>scroll up</div>
+      </div>
+    </div>
   )
 }
 
